@@ -773,7 +773,7 @@ function library:Introduction()
     crimtyc.BackgroundTransparency = 1.000
     crimtyc.Size = UDim2.new(0, 80, 0, 21)
     crimtyc.Font = Enum.Font.Code
-    crimtyc.Text = "powered by crimtyc"
+    crimtyc.Text = " crimtyc"
     crimtyc.TextColor3 = Color3.fromRGB(124, 124, 124)
     crimtyc.TextSize = 10.000
     crimtyc.TextTransparency = 1
@@ -842,7 +842,7 @@ function library:Init(key)
     end
 
     local title = library.title
-    key = key or Enum.KeyCode.RightAlt
+    key = key or Enum.KeyCode.V
 
     local screen = Instance.new("ScreenGui")
     local edge = Instance.new("Frame")
